@@ -1,0 +1,268 @@
+body,
+html {
+  background-color: #f2f2f2; }
+
+.skeleton {
+  border: 10px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+  margin-top: 10px; }
+
+.mainCont {
+  background: #f2f2f2;
+  height: auto;
+  padding: 4%; }
+
+.Square-box {
+  height: 100px; }
+
+.Line-box {
+  height: 10px; }
+
+.box {
+  background: linear-gradient(90deg, #b3b3b3, white 0%, #b3b3b3);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+  display: block;
+  width: 100%;
+  animation: moveBackg 1s infinite;
+  animation-timing-function: ease; }
+
+.cover {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  position: inherit;
+  background-color: #f2f2f2; }
+
+#cbox1 {
+  width: 50%;
+  margin-left: 50%;
+  top: 0px; }
+
+#cbox2 {
+  width: 10%;
+  margin-left: 90%;
+  top: 10px; }
+
+#cbox3 {
+  width: 30%;
+  margin-left: 70%;
+  top: 20px; }
+
+#cbox4 {
+  width: 60%;
+  margin-left: 40%;
+  top: 30px; }
+
+#cbox5 {
+  width: 84%;
+  margin-left: 16%;
+  top: 40px; }
+
+@keyframes moveBackg {
+  0% {
+    background: linear-gradient(90deg, #b3b3b3, white 0%, #b3b3b3); }
+  1% {
+    background: linear-gradient(90deg, #b3b3b3, white 1%, #b3b3b3); }
+  2% {
+    background: linear-gradient(90deg, #b3b3b3, white 2%, #b3b3b3); }
+  3% {
+    background: linear-gradient(90deg, #b3b3b3, white 3%, #b3b3b3); }
+  4% {
+    background: linear-gradient(90deg, #b3b3b3, white 4%, #b3b3b3); }
+  5% {
+    background: linear-gradient(90deg, #b3b3b3, white 5%, #b3b3b3); }
+  6% {
+    background: linear-gradient(90deg, #b3b3b3, white 6%, #b3b3b3); }
+  7% {
+    background: linear-gradient(90deg, #b3b3b3, white 7%, #b3b3b3); }
+  8% {
+    background: linear-gradient(90deg, #b3b3b3, white 8%, #b3b3b3); }
+  9% {
+    background: linear-gradient(90deg, #b3b3b3, white 9%, #b3b3b3); }
+  10% {
+    background: linear-gradient(90deg, #b3b3b3, white 10%, #b3b3b3); }
+  11% {
+    background: linear-gradient(90deg, #b3b3b3, white 11%, #b3b3b3); }
+  12% {
+    background: linear-gradient(90deg, #b3b3b3, white 12%, #b3b3b3); }
+  13% {
+    background: linear-gradient(90deg, #b3b3b3, white 13%, #b3b3b3); }
+  14% {
+    background: linear-gradient(90deg, #b3b3b3, white 14%, #b3b3b3); }
+  15% {
+    background: linear-gradient(90deg, #b3b3b3, white 15%, #b3b3b3); }
+  16% {
+    background: linear-gradient(90deg, #b3b3b3, white 16%, #b3b3b3); }
+  17% {
+    background: linear-gradient(90deg, #b3b3b3, white 17%, #b3b3b3); }
+  18% {
+    background: linear-gradient(90deg, #b3b3b3, white 18%, #b3b3b3); }
+  19% {
+    background: linear-gradient(90deg, #b3b3b3, white 19%, #b3b3b3); }
+  20% {
+    background: linear-gradient(90deg, #b3b3b3, white 20%, #b3b3b3); }
+  21% {
+    background: linear-gradient(90deg, #b3b3b3, white 21%, #b3b3b3); }
+  22% {
+    background: linear-gradient(90deg, #b3b3b3, white 22%, #b3b3b3); }
+  23% {
+    background: linear-gradient(90deg, #b3b3b3, white 23%, #b3b3b3); }
+  24% {
+    background: linear-gradient(90deg, #b3b3b3, white 24%, #b3b3b3); }
+  25% {
+    background: linear-gradient(90deg, #b3b3b3, white 25%, #b3b3b3); }
+  26% {
+    background: linear-gradient(90deg, #b3b3b3, white 26%, #b3b3b3); }
+  27% {
+    background: linear-gradient(90deg, #b3b3b3, white 27%, #b3b3b3); }
+  28% {
+    background: linear-gradient(90deg, #b3b3b3, white 28%, #b3b3b3); }
+  29% {
+    background: linear-gradient(90deg, #b3b3b3, white 29%, #b3b3b3); }
+  30% {
+    background: linear-gradient(90deg, #b3b3b3, white 30%, #b3b3b3); }
+  31% {
+    background: linear-gradient(90deg, #b3b3b3, white 31%, #b3b3b3); }
+  32% {
+    background: linear-gradient(90deg, #b3b3b3, white 32%, #b3b3b3); }
+  33% {
+    background: linear-gradient(90deg, #b3b3b3, white 33%, #b3b3b3); }
+  34% {
+    background: linear-gradient(90deg, #b3b3b3, white 34%, #b3b3b3); }
+  35% {
+    background: linear-gradient(90deg, #b3b3b3, white 35%, #b3b3b3); }
+  36% {
+    background: linear-gradient(90deg, #b3b3b3, white 36%, #b3b3b3); }
+  37% {
+    background: linear-gradient(90deg, #b3b3b3, white 37%, #b3b3b3); }
+  38% {
+    background: linear-gradient(90deg, #b3b3b3, white 38%, #b3b3b3); }
+  39% {
+    background: linear-gradient(90deg, #b3b3b3, white 39%, #b3b3b3); }
+  40% {
+    background: linear-gradient(90deg, #b3b3b3, white 40%, #b3b3b3); }
+  41% {
+    background: linear-gradient(90deg, #b3b3b3, white 41%, #b3b3b3); }
+  42% {
+    background: linear-gradient(90deg, #b3b3b3, white 42%, #b3b3b3); }
+  43% {
+    background: linear-gradient(90deg, #b3b3b3, white 43%, #b3b3b3); }
+  44% {
+    background: linear-gradient(90deg, #b3b3b3, white 44%, #b3b3b3); }
+  45% {
+    background: linear-gradient(90deg, #b3b3b3, white 45%, #b3b3b3); }
+  46% {
+    background: linear-gradient(90deg, #b3b3b3, white 46%, #b3b3b3); }
+  47% {
+    background: linear-gradient(90deg, #b3b3b3, white 47%, #b3b3b3); }
+  48% {
+    background: linear-gradient(90deg, #b3b3b3, white 48%, #b3b3b3); }
+  49% {
+    background: linear-gradient(90deg, #b3b3b3, white 49%, #b3b3b3); }
+  50% {
+    background: linear-gradient(90deg, #b3b3b3, white 50%, #b3b3b3); }
+  51% {
+    background: linear-gradient(90deg, #b3b3b3, white 51%, #b3b3b3); }
+  52% {
+    background: linear-gradient(90deg, #b3b3b3, white 52%, #b3b3b3); }
+  53% {
+    background: linear-gradient(90deg, #b3b3b3, white 53%, #b3b3b3); }
+  54% {
+    background: linear-gradient(90deg, #b3b3b3, white 54%, #b3b3b3); }
+  55% {
+    background: linear-gradient(90deg, #b3b3b3, white 55%, #b3b3b3); }
+  56% {
+    background: linear-gradient(90deg, #b3b3b3, white 56%, #b3b3b3); }
+  57% {
+    background: linear-gradient(90deg, #b3b3b3, white 57%, #b3b3b3); }
+  58% {
+    background: linear-gradient(90deg, #b3b3b3, white 58%, #b3b3b3); }
+  59% {
+    background: linear-gradient(90deg, #b3b3b3, white 59%, #b3b3b3); }
+  60% {
+    background: linear-gradient(90deg, #b3b3b3, white 60%, #b3b3b3); }
+  61% {
+    background: linear-gradient(90deg, #b3b3b3, white 61%, #b3b3b3); }
+  62% {
+    background: linear-gradient(90deg, #b3b3b3, white 62%, #b3b3b3); }
+  63% {
+    background: linear-gradient(90deg, #b3b3b3, white 63%, #b3b3b3); }
+  64% {
+    background: linear-gradient(90deg, #b3b3b3, white 64%, #b3b3b3); }
+  65% {
+    background: linear-gradient(90deg, #b3b3b3, white 65%, #b3b3b3); }
+  66% {
+    background: linear-gradient(90deg, #b3b3b3, white 66%, #b3b3b3); }
+  67% {
+    background: linear-gradient(90deg, #b3b3b3, white 67%, #b3b3b3); }
+  68% {
+    background: linear-gradient(90deg, #b3b3b3, white 68%, #b3b3b3); }
+  69% {
+    background: linear-gradient(90deg, #b3b3b3, white 69%, #b3b3b3); }
+  70% {
+    background: linear-gradient(90deg, #b3b3b3, white 70%, #b3b3b3); }
+  71% {
+    background: linear-gradient(90deg, #b3b3b3, white 71%, #b3b3b3); }
+  72% {
+    background: linear-gradient(90deg, #b3b3b3, white 72%, #b3b3b3); }
+  73% {
+    background: linear-gradient(90deg, #b3b3b3, white 73%, #b3b3b3); }
+  74% {
+    background: linear-gradient(90deg, #b3b3b3, white 74%, #b3b3b3); }
+  75% {
+    background: linear-gradient(90deg, #b3b3b3, white 75%, #b3b3b3); }
+  76% {
+    background: linear-gradient(90deg, #b3b3b3, white 76%, #b3b3b3); }
+  77% {
+    background: linear-gradient(90deg, #b3b3b3, white 77%, #b3b3b3); }
+  78% {
+    background: linear-gradient(90deg, #b3b3b3, white 78%, #b3b3b3); }
+  79% {
+    background: linear-gradient(90deg, #b3b3b3, white 79%, #b3b3b3); }
+  80% {
+    background: linear-gradient(90deg, #b3b3b3, white 80%, #b3b3b3); }
+  81% {
+    background: linear-gradient(90deg, #b3b3b3, white 81%, #b3b3b3); }
+  82% {
+    background: linear-gradient(90deg, #b3b3b3, white 82%, #b3b3b3); }
+  83% {
+    background: linear-gradient(90deg, #b3b3b3, white 83%, #b3b3b3); }
+  84% {
+    background: linear-gradient(90deg, #b3b3b3, white 84%, #b3b3b3); }
+  85% {
+    background: linear-gradient(90deg, #b3b3b3, white 85%, #b3b3b3); }
+  86% {
+    background: linear-gradient(90deg, #b3b3b3, white 86%, #b3b3b3); }
+  87% {
+    background: linear-gradient(90deg, #b3b3b3, white 87%, #b3b3b3); }
+  88% {
+    background: linear-gradient(90deg, #b3b3b3, white 88%, #b3b3b3); }
+  89% {
+    background: linear-gradient(90deg, #b3b3b3, white 89%, #b3b3b3); }
+  90% {
+    background: linear-gradient(90deg, #b3b3b3, white 90%, #b3b3b3); }
+  91% {
+    background: linear-gradient(90deg, #b3b3b3, white 91%, #b3b3b3); }
+  92% {
+    background: linear-gradient(90deg, #b3b3b3, white 92%, #b3b3b3); }
+  93% {
+    background: linear-gradient(90deg, #b3b3b3, white 93%, #b3b3b3); }
+  94% {
+    background: linear-gradient(90deg, #b3b3b3, white 94%, #b3b3b3); }
+  95% {
+    background: linear-gradient(90deg, #b3b3b3, white 95%, #b3b3b3); }
+  96% {
+    background: linear-gradient(90deg, #b3b3b3, white 96%, #b3b3b3); }
+  97% {
+    background: linear-gradient(90deg, #b3b3b3, white 97%, #b3b3b3); }
+  98% {
+    background: linear-gradient(90deg, #b3b3b3, white 98%, #b3b3b3); }
+  99% {
+    background: linear-gradient(90deg, #b3b3b3, white 99%, #b3b3b3); }
+  100% {
+    background: linear-gradient(90deg, #b3b3b3, white 100%, #b3b3b3); } }
+
+/*# sourceMappingURL=sass.css.map */

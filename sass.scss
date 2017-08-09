@@ -1,0 +1,70 @@
+$color_1: #b3b3b3;
+$color_2: white;
+$background_color: #f2f2f2;
+$margin: 10px;
+$squareBoxHeight: 100px;
+$LineHeight: 10px;
+
+body,
+html {
+    background-color: $background_color;
+}
+.skeleton {
+    border: 10px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    margin-top: $margin;
+}
+.mainCont {
+    background: $background_color;
+    height: auto;
+    padding: 4%;
+}
+.Square-box{
+    height: $squareBoxHeight;
+}
+.Line-box{
+    height: $LineHeight;
+}
+.box {
+    background: linear-gradient(90deg, $color_1, $color_2 0%, $color_1);
+    margin-bottom: $margin;
+    margin-top: $margin;
+    float: left;
+    display: block;
+    width: 100%;
+    animation: moveBackg 1s infinite;
+    animation-timing-function: ease;
+}
+.cover{
+    margin-bottom: $margin;
+    margin-top: $margin;
+    display: block;
+    position: inherit;
+    background-color: $background_color;
+}
+
+
+//line length list over 100
+$length-list:( 1: 50, 2: 10, 3: 30, 4: 60, 5: 84);
+//class name
+$class-slug: cbox !default;
+
+
+@each $key,$val in $length-list {
+    ##{$class-slug}#{$key} { 
+        width: $val + %;
+        margin-left: (100 - $val)+%;
+        top: ($key*10-10) + px;
+    }
+}
+
+//animation
+@keyframes moveBackg {
+    @for $i from 0 through 100 {
+        $percent: 0% + $i;
+        #{$percent} {
+            background:linear-gradient(90deg, $color_1, $color_2 #{$percent}, $color_1)
+        }
+    }
+}
