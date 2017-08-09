@@ -1,4 +1,4 @@
-# SkeletonScreen
+# Skeleton Screen UI
 Simple Skeleton Screen design. Not yet Responsiveness added.
 
 # Demo Gif Design
