@@ -4,6 +4,7 @@ $background_color: #f2f2f2;
 $margin: 10px;
 $squareBoxHeight: 100px;
 $LineHeight: 10px;
+$gradiant_rotate: 90deg;
 
 body,
 html {
@@ -27,7 +28,7 @@ html {
     height: $LineHeight;
 }
 .box {
-    background: linear-gradient(90deg, $color_1, $color_2 0%, $color_1);
+    background: linear-gradient($gradiant_rotate, $color_1, $color_2 0%, $color_1);
     margin-bottom: $margin;
     margin-top: $margin;
     float: left;
@@ -64,7 +65,7 @@ $class-slug: cbox !default;
     @for $i from 0 through 100 {
         $percent: 0% + $i;
         #{$percent} {
-            background:linear-gradient(90deg, $color_1, $color_2 #{$percent}, $color_1)
+            background:linear-gradient($gradiant_rotate, $color_1, $color_2 #{$percent}, $color_1)
         }
     }
 }
